@@ -1,0 +1,90 @@
+body, html{
+  padding: 0;
+  margin: 0;
+  font-family: futura;
+  min-width: 600px;
+  height: 100%;
+  width: 100%;
+}
+nav{
+  background-color: #369bdb;
+}
+ul{
+  margin: 0;
+  padding-left: 0;
+  text-align: center;
+}
+nav img{
+  width: 150px;
+}
+nav li{
+  display: inline-block;
+  padding: 1% 5% 1% 5%;
+}
+nav li:nth-child(n+2){
+  position: relative;
+  bottom:25px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+#top{
+  background-color: #ececec;
+  height: 15%;
+}
+#form{
+  text-align: center;
+  position: relative;
+  top: 30%;
+}
+#form #input{
+  width: 50%;
+  font-size: 17px;
+  padding: 7px;
+  font-weight: 200;
+  border: none;
+}
+#form #submit{
+  padding: 7px;
+  border: none;
+  background-color: #d24b4b;
+  color: white;
+  font-size: 17px;
+}
+
+#main{
+  text-align: center;
+  padding-bottom: 40px;
+}
+.box h2{
+  color: #369dbd;
+  font-weight: 100;
+}
+.box p{
+ color: gray;
+ font-weight: 500;
+  width: 40%;
+  margin: 0 auto;
+  position: relative;
+  bottom: 10px;
+}
+
+#notif{
+  font-weight: 100;
+  background-color: #ff7171;
+  text-align: center;
+  margin: 0;
+  
+}
+
+footer{
+    background-color: #ececec;
+}
+footer li{
+  display: inline-block;
+  padding: 2% 3% 2% 3%;
+}
+footer li a{
+  color: #369dbd;
+}
