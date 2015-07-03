@@ -5,9 +5,21 @@ body, html{
   min-width: 500px;
   height: 100%;
   width: 100%;
+  background-color: #ececec;
+
+}
+#url{
+    background-color: #ececec;
+}
+span{
+  color: #369dbd;
 }
 nav{
   background-color: #369bdb;
+}
+#top p{
+  margin: 0;
+  padding:15px;
 }
 ul{
   margin: 0;
@@ -30,32 +42,38 @@ a{
   color: white;
 }
 #top{
-  background-color: #ececec;
   text-align: center;
-  height: 100%;
+  height: 70%;
   width: 100%;
+}
+#meat{
+  min-width: 1000px;
+  height: 100%;
+  width: 70%;
+  margin: 0 auto;
 }
 
 #vid{
- background-color: #242424;
+  width: 70%;
   height: 100%;
   overflow: auto;
 }
 
 
 #messagecontainer{
-  width: 235px;
+  background-color: white;
+  width: 30%;
+  height: 80%;
   float: right;
-  background-color: #ececec;
-  height: 390px;
-  overflow: scroll;
-  height: 100%;
-  max-height:430px;
 }
 #messagecontainer li{
   list-style-type: none;
   text-align: left;
  padding: 10px;
+}
+#messagecontainer ul{
+  height: 89%;
+  overflow: scroll;
 }
 #whitespace li{
   background-color: white;
@@ -69,29 +87,31 @@ a{
   background-color: #ececec;
   font-size: 24px;
   color: #369dbd;
-  background-color:#242424; 
 }
 #pause{
   border: none;
   background-color: #ececec;
   font-size: 24px;
   color: #369dbd;
-  background-color:#242424; 
 }
 
 #chatmessage{
-  width: 100%;
-  height: 20%;
-  font-size: 22px;
+  width: 65%;
+  height: 30px;
+  font-size: 19px;
   border: 1px solid #369dbd;
+  padding: 5px;
 }
 #submitmessage{
-  color: #ececec;
+  width: 26%;
+  padding: 5px;
+  background-color: #ececec;
+  height: 40px;
   border: none;
-  background-color: white;
   padding-bottom: 20px;
   font-size: 22px;
-  color: #369dbd;
+  background-color: #c94141;
+  color: white;
 }
 
 footer{
@@ -110,8 +130,6 @@ footer li a{
 }
 
 #card{
-  
-
    width: 500px;
   margin: 0 auto;
   text-align: center;
