@@ -75,6 +75,7 @@ a{
 }
 #messagecontainer li{
   list-style-type: none;
+  word-wrap: break-word;
   text-align: left;
   font-family: Arial;
  padding: 10px;
